@@ -1,0 +1,39 @@
+/* this is a css comment (css for styling)*/
+/* this is for a specific id */
+#happy_things {
+	color: purple;
+}
+/* this is for any tag=p, i.e., paragraphs*/
+p {
+	font-family: sans-serif;
+}
+/* this is for a class */
+.header {
+	font-style: initial;
+}
+/* again, for a specific id */
+#i-header {
+	transition: all 0.5s ease-in-out;
+	color: black;
+}
+#i-header:hover {
+	transition: all 0.5s ease-in-out;
+	color: orange;
+}
+#img1 {
+	transform: scale(1);
+}
+#img1:hover {
+	transform: scale(0.9);
+}
+#img2 {
+	width: 500px;
+}
+.ans {
+	transition: all 0.5s ease-in-out;
+	color: white;
+}
+.ans:hover {
+	transition: all 0.5s ease-in-out;
+	color: black;
+}
